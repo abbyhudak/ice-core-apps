@@ -12,6 +12,8 @@ core_proxies = pd.read_csv('core_proxies.csv')
 st.title("Allan Hills ice core summary data")
 st.write("Note: This is mostly preliminary, unpublished, and incomplete data.")
 
+st.image("allan_hills.png")
+
 ########### Filters
 
 # Age filter
